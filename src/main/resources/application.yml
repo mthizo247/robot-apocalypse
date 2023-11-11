@@ -1,0 +1,22 @@
+server:
+  port: 9094
+
+spring:
+  datasource:
+    username: sa
+    password: password
+    url: jdbc:h2:mem:testdb
+    initialization-mode: always
+    continue-on-error: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+
+logging:
+  level:
+    za.co.nearly.pigogo.server: TRACE
+    org.springframework.web: TRACE
+    org.hibernate: TRACE
