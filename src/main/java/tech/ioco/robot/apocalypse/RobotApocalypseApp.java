@@ -24,6 +24,7 @@ import java.io.IOException;
 //@EnableCaching
 @RestController
 @Hidden
+
 public class RobotApocalypseApp {
     @SuppressWarnings("all")
     public static void main(String[] args) throws Exception {
