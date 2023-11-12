@@ -19,9 +19,6 @@ import java.io.IOException;
 
 @SpringBootApplication
 @EntityScan(basePackages = "tech.ioco.robot.apocalypse.domain")
-//@EnableSwagger2
-//@EnableScheduling
-//@EnableCaching
 @RestController
 @Hidden
 public class RobotApocalypseApp {
