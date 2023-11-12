@@ -15,4 +15,9 @@ navigate to <a href="http://localhost:9094/swagger-ui/index.html">http://localho
 <p>
 to connect robots CPU execute the <b>POST</b> endpoint <b>/robots</b>
 </p>
+<p>
 navigate to <a href="http://localhost:9094/h2-console">http://localhost:9094/h2-console</a> to access the database
+</p>
+<p>
+you can run individual tests <b>SurvivorApiTest</b> and <b>RobotApiTest</b>
+</p>
