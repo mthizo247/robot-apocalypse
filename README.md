@@ -10,5 +10,8 @@ mvn spring-boot:run
 </code>
 <br/>
 <p>
-navigate to http://localhost:9094/swagger-ui/index.html
+navigate to <a href="http://localhost:9094/swagger-ui/index.html">http://localhost:9094/swagger-ui/index.html</a> to access the swagger page
+</p>
+<p>
+to connect robots CPU execute the POST endpoint <b>/robots</b>
 </p>
