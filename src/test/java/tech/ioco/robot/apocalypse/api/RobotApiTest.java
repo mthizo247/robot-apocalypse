@@ -1,6 +1,5 @@
 package tech.ioco.robot.apocalypse.api;
 
-import org.apache.commons.lang3.RandomUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import tech.ioco.robot.apocalypse.domain.Robot;
-import tech.ioco.robot.apocalypse.domain.Survivor;
 import tech.ioco.robot.apocalypse.repository.RobotRepository;
 import tech.ioco.robot.apocalypse.util.Utils;
 
