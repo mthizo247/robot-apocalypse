@@ -13,5 +13,6 @@ mvn spring-boot:run
 navigate to <a href="http://localhost:9094/swagger-ui/index.html">http://localhost:9094/swagger-ui/index.html</a> to access the swagger page
 </p>
 <p>
-to connect robots CPU execute the POST endpoint <b>/robots</b>
+to connect robots CPU execute the <b>POST</b> endpoint <b>/robots</b>
 </p>
+navigate to <a href="http://localhost:9094/h2-console">http://localhost:9094/h2-console</a> to access the database
